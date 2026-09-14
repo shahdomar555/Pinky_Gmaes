@@ -1,6 +1,6 @@
 # Pinky Games
 
-Pinky Games is a desktop application developed using Python and Tkinter. The project includes two classic games: Tic Tac Toe and Connect 4, both featuring an AI opponent.
+Pinky Games is a desktop application developed using Python and Tkinter. The project includes two classic games, Tic Tac Toe and Connect 4, with AI opponents.
 
 ## Games
 
@@ -24,7 +24,7 @@ Pinky Games is a desktop application developed using Python and Tkinter. The pro
 
 * Python
 * Tkinter
-* Minimax
+* Minimax Algorithm
 * Alpha-Beta Pruning
 
 ## Features
@@ -32,9 +32,18 @@ Pinky Games is a desktop application developed using Python and Tkinter. The pro
 * Interactive graphical user interface
 * AI-based gameplay
 * Multiple difficulty levels
-* Game state and win condition handling
-* Animated Connect 4 gameplay
+* Game state management
+* Win and draw detection
+* Animated Connect 4 pieces
 * Custom user interface
+
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/home.png" width="250">
+  <img src="screenshots/tic_tac_toe.png" width="250">
+  <img src="screenshots/connect4.png" width="250">
+</p>
 
 ## How to Run
 
@@ -63,5 +72,11 @@ python pinky_games1.py
 ```text
 Pinky_Gmaes/
 │
-└── pinky_games1.py
+├── screenshots/
+│   ├── home.png
+│   ├── tic_tac_toe.png
+│   └── connect4.png
+│
+├── pinky_games1.py
+└── README.md
 ```
